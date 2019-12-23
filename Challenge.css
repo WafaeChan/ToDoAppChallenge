@@ -1,0 +1,76 @@
+body {
+    font-family: Helvetica;
+}
+
+.bluetodo {
+    width : 70%;
+    min-height: 400px;
+    max-height: 401px;
+    background-color: #4696E5;
+    margin: auto;
+}
+
+.p1 {
+    font-weight: 800;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.p2 {
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.inputsquare {
+    width: 90%;
+    height: 60px;
+    border-radius: 15px;
+    border: solid 3px rgb(238, 239, 245, 0.568);
+    font-size: 26px;
+    color:  #4696E5;
+}
+
+
+.addme {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 3px rgb(238, 239, 245, 0.568);
+    background-color: #4696E5;
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.addme:hover {
+    background-color: rgb(252, 252, 252);
+    color: #4696E5;
+}
+
+.headerbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 50px;
+}
+
+
+.p3 {
+    color: rgb(116, 116, 116);
+    font-size: 28px;
+    text-align: center;
+    margin: 70px 0px;
+}
+
+.middleline {
+    width: 5%;
+    color: rgb(192, 191, 191)
+}
+
